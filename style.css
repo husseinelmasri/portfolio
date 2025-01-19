@@ -381,6 +381,10 @@ margin:0 auto;
   .text-md{
     font-size: 19px;
   }
+  .footer-container{
+    display:grid;
+    text-align: center;
+  }
 }
 @media(max-width:768px){
   .hamburger{
