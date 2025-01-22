@@ -36,7 +36,10 @@ p{
 }
 img{
   max-width: 100%;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
 }
+
 
 section a{
   color:#000;
@@ -158,6 +161,9 @@ margin:0 auto;
   transform: scale(1.1); /* Slightly enlarge the icon on hover */
 }
 
+.box-b{
+  border-radius:40px;
+}
 /* Box */
 
 .box{
@@ -191,9 +197,7 @@ margin:0 auto;
   justify-content: space-between;
 }
 
-.grid-reversed :first-child{
-  order:2;
-}
+
 /* Buttons */
 
 .btn{
